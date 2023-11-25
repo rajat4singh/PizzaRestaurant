@@ -473,8 +473,16 @@ height: 100px;
 .footer{
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top:99px;
+    padding-left:50px;
+}
+
+.fright{
+  display: flex;
+  flex-direction: column;
+  
+  
 }
 
 .group>img{
@@ -489,10 +497,22 @@ height: 62px;
     width: 65px;
 height: 62px;
 }
-.fright{
-    display: flex;
-    flex-direction: column;
-}
+
 .email{
-    display: flex;
+  display: flex;
+  justify-content: center; 
+  
+}
+.fphone{
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.email>p{
+  height:70px !important;
+}
+.fphone>p{
+  height:70px !important;
 }
